@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Balón de Fútbol Adidas",
+      "precio": 65,
+      "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fef41729324d40b18eaaaf4800f93328_9366/Pelota_Tiro_Competition_Blanco_HT2426_01_standard.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Botines Nike Mercurial",
+      "precio": 190,
+      "imagen": "https://images.pexels.com/photos/10923060/pexels-photo-10923060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "3",
+      "nombre": "Camiseta de Fútbol Barcelona",
+      "precio": 120,
+      "imagen": "https://www.nike.com.pe/on/demandware.static/-/Sites-catalog-equinox/default/dw9bf32ad7/images/hi-res/196605453690_9_20240129120000-mrtPeru.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Guantes de Portero",
+      "precio": 35,
+      "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ec382d7c66ac4ac69321af6400bad7b5_9366/Guantes_portero_Predator_Pro_Promo_Fingersave_Negro_HN5560_21_model.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Red de Portería",
+      "precio": 20,
+      "imagen": "https://i.ebayimg.com/images/g/t0cAAOSwDcNe30PZ/s-l1600.webp"
+    },
+    {
+      "id": "6",
+      "nombre": "Silbato de Árbitro",
+      "precio": 5,
+      "imagen": "https://promart.vteximg.com.br/arquivos/ids/7486361-1000-1000/image-ad3e3730317e4d6cb299ab477db8e739.jpg?v=638308251466500000"
+    },
+    {
+      "id": "7",
+      "nombre": "Conos de Entrenamiento",
+      "precio": 15,
+      "imagen": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121549593_3086585_1?wid=800&hei=800&qlt=70"
+    },
+    {
+      "id": "8",
+      "nombre": "Botella de Agua Deportiva",
+      "precio": 8,
+      "imagen": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_129027411_5433397_1?wid=1500&hei=1500&qlt=70"
+    },
+    {
+      "id": "9",
+      "nombre": "Pizarra Táctica",
+      "precio": 30,
+      "imagen": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_127286399_4862952_1?wid=1500&hei=1500&qlt=70"
+    }
+  ]
+}

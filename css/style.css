@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFEE6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.encabezado {
+    background-color: #248f8d;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.titulo_encabezado {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 0;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.main-contenido {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2em;
+    background-color: #b2d5ba;
+}
+
+.section-productos {
+    background-color: #b2d5ba;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3em;
+    margin-bottom: 2em;
+    width: 55%;
+    min-width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+.section-productos:hover {
+    background-color:  #eff3cd;
+}
+
+.main-contenido{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-formulario {
+    background-color:  #b2d5ba;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 4em;
+    margin-bottom: 2em;
+    width: 38%;
+    min-width: 300px;
+}
+.section-formulario:hover{
+    background-color: #eff3cd;
+}
+
+.titulo-productos, .titulo-formulario {
+    font-size: 2em;
+    color: #282c34;
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.producto-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-around;
+    background-color: #eff3cd;
+    padding: 10px;
+    border: 2px solid #605063;
+    border-radius: 8px;
+    max-height: 90vh;
+    max-width: 100%;
+    overflow-y: auto;
+}
+
+.producto-item {
+    background-color: #61ada0;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.producto-item:hover {
+    transform: scale(1.05);
+    background-color: #b2d5ba;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.producto-item:hover .producto-imagen {
+    transform: scale(1.05);
+}
+
+.producto-descripcion,
+.producto-precio {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.producto-precio-borrar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.producto-precio {
+    margin: 0;
+}
+
+.icono-borrar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icono-basurero img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.icono-borrar:hover .icono-basurero img {
+    transform: scale(1.2);
+}
+
+.input-producto {
+    width: 100%;
+    height: 40px;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.input-producto::placeholder {
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+
+.formulario-botones {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.boton-enviar, .boton-limpiar {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton-enviar {
+    background-color: #FC4100;
+    color: white;
+}
+
+.boton-enviar:hover {
+    transform: scale(1.1);
+}
+
+.boton-limpiar {
+    background-color: #9D9D9D;
+    color: white;
+}
+
+.boton-limpiar:hover {
+    transform: scale(1.1);
+}
+
+.pie_pagina {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo_encabezado_pie_de_pagina{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.footer-logo-container {
+    margin-top: 15px;
+}
+
+.footer-logo-container a {
+    margin: 0 10px;
+}
+
+.redes-sociales-logo {
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales-logo:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+    .main-contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-productos, .section-formulario {
+        width: 100%;
+    }
+}
